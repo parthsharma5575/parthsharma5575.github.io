@@ -1,0 +1,48 @@
+*{
+    margin: 0cm;
+    padding: 0cm;
+    font-family: monospace;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(888.jpg); background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    border-style: double;
+    border-block: ;
+    border-color: rgb(245, 245, 248);
+    border-image: url(000.jpg);
+    float: left;
+    text-decoration: blue;
+    width: 0cm;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text 7s infinite;
+}
+@keyframes text{
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width: 49ch;
+    }
+}j1{
+    align-self: center;
+    display:flexbox;
+    transform: translate(-75%);
+    text-align: center;
+    color: #9e9b9b;
+    font-size: 5cm;
+  }
+j1 span{
+    display:flex;
+    position: none;
+    border-radius: 5cm;
+    float: left;
+    text-decoration: dodgerblue ;
+    animation: animate 1s linear forwards;
+    animation-duration: 5s;}
